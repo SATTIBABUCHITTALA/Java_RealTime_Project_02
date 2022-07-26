@@ -1,0 +1,193 @@
+Datatypes:- 
+class , object 
+
+Mobile ---- Mobile pouch, Laptop Pouch, Tab pouch
+
+class :- class is a blueprint which has certain properties and methods . 
+We create object to access these properties
+
+class Student {
+studentId;
+studentName;
+grade;
+emailId;
+phoneNumber;
+section
+principalName;
+
+reading();
+playing();
+chitChat();
+writingExams();
+
+
+
+}
+
+class Vehicle{
+
+vehicleNo;
+vehicleColor;
+vehicleType;
+vehicleName;
+brandName;
+fuelType;
+typeOfTyres;
+isAbs;
+acOrOff();
+horn();
+engineOrOff();
+accelerate();
+audio();
+video();
+}
+Object:- An object is a realtime Entity (or) An object is an instance of a class 
+car,renault,audi a3, access125,
+
+class Fruit {
+String shape;
+String color;
+String fruitName;
+String fruitTaste;
+String season;
+char c;
+int num;
+float f=123.76f;
+double d= 134.6567;
+long l=133434l
+boolean flag=false;
+
+isEdible();
+isItExport();
+weightOfTheFruit();
+
+}
+Apple,Mangoes
+
+Data Types:- 
+Primitive Data Types :- byte -1 byte , -127 to 128 
+char-2 bytes  ---'C'/M/F
+short-2 bytes ---
+int- 4 bytes ---- 
+long 8 bytes, ---1234l;
+float 4 bytes , 128.6757f;
+double --8 bytes ,128.2346564323
+boolean -- false, true 
+
+
+Non Primitive DataTypes:- 
+String 
+Collections 
+Arrays 
+Class 
+
+Naming Conventions:- 
+
+class :- class name always represents a noun. Employee,EmployeeDetails , 
+
+object:- object always starts with small letter, Employee, employee e, m, f,s 
+class Emp{
+
+
+}
+Emp e =new Employee(); 
+Interface :- Interface is going to provide a service to a class 
+EmployeeService ,StudentService 
+
+class Employee {
+String empId;
+String empName;
+
+
+}
+----CRUD ---- Create, Read, Update, Delete 
+DTO 
+class Employee {
+
+String employeeId;
+String employeeName;
+
+
+20 Properties 
+}
+interface EmployeeService{
+
+boolean validEmployee(String empId);
+Employee getEmployeeDetails(String empId);
+Employee updateEmployeeDetails(String empId, double updatedSalary);
+boolean deleteEmployee(String empId);
+Employee createAnEmployee (Employee employee) ;
+
+}
+interface 
+class EmployeeServiceImpl implements EmployeeService{
+
+
+
+
+}
+Applications :- We can create many types of Applications by using Java 
+1. Desktop Applications
+2. Web Applications --- internet Applications Client/Server 
+3. Enterprise Applications --- Big scale Applications 
+4. Distributed Applications --- One Applicaiton is communcating with another applications 
+5. Gaming Applications 
+
+
+
+
+
+
+
+
+
+
+Requirements gathering
+----------------------
+offers
+common functions 
+loginUser();
+loginEntity;
+boolean completePayment(String loginUser, double amount );
+refundAmountToACustomer();
+
+10 Methods ---- 20 -30 methods 
+
+customer --- Credentials validation important 
+products 
+login Functionality --Nikhila --- Existing Customer --- 1 month 
+signup Functionality --Laxmi ---New Customer ---- 1 month
+ 
+payment functionality --- Shivesh ---- Paralley --10 methods payment, payment2, payment3
+checkout funcationaliy ----Harikha  ---- 
+filters 
+refund functionality --- Satti Babu 
+customer support 
+
+return functionality
+total money 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+ 
