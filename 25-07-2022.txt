@@ -1,0 +1,63 @@
+Java 1995 1.0 Sun MicroSystems
+Oracle
+
+java 1.5 
+java 1.8 2014 
+java 11 version 
+
+java 17 features  
+java 18 is currently Running
+
+
+Java has been devided into 3 parts
+Java SE -- Standard Edition (Core Java ) 
+Java EE -- Enterprise Edition (Spring Spring Modules Spring MVC , Spring Boot) 
+Java ME ---- Micro Edition 
+--------------------------------------------
+
+Softwares 
+
+JDK --- Java Development Kit 
+JDK ---> JRE + Development Tool(Compilers) 
+JRE --- Java Runtime Environment ( JVM + rt.jar jars )
+
+JDK = JRE(JVM)  + Dev tools 
+
+
+How does Java Program Run? 
+class Student {
+
+int id; 
+String name; 
+
+}
+
+Why Programming is required ?
+To communciate with the System to get some output. 
+
+Languages :- 
+1. Machine Language    -----01010100010101010001010101010010
+2. Assembly Level Language ----Commands Time Taken Process 
+3. High Level Language ------English ---> Compilers + Interprete ---> Communicate 
+
+Python, Java , Kotlin ,Scala 
+
+JVM : - Setup the Environment and Execute the Program. 
+English 
+source code = ByteCode JDK( ---> JRE(JVM + git compilers) ----> Machines 
+
+
+
+Applications:- 
+
+
+
+
+
+
+
+
+
+
+
+
