@@ -1,0 +1,122 @@
+Operators : - 
+Urinary Operators :-  ++,-- 
+int k=10;
+ 
+int y= k++; //Post Increment y=10;k=11; 
+int z= ++k;  // Pre Increment z=12;k=12; 
+
+Arithmetic Operators :- +,-, *, %, /
+Shift Operators :-<,<<
+Relational Operators:- <,>,<=,>= 
+int a=10;
+int b =15; 
+a<=10 && b>15  true && false 
+1 1 --- >1
+1 0 ---->0
+0 1 ----> 0 
+Bitwise Operators :- & , |, 
+Logical Operators:- &&, ||, 
+
+
+Ternary Operators :- condition ? true :false 
+
+a>10 ? firststament: other statement;
+
+
+Conditional Statements:- 
+
+if
+
+if -else 
+
+switch 
+
+nested if 
+if -else-if 
+
+---------
+for -- Loop
+while loop --
+do-while loop 
+enhanced for loop 
+
+We write multiple classes ---- 
+Web Application 
+
+Flipkart :- 
+
+Shopping 
+Login 
+Logout
+checkout
+Signup
+Shipment method 
+offers zone 
+Category of Products
+Payment 
+remove products 
+
+
+Packages:-
+
+Interface ----
+
+filpkart.com 
+
+com.filpkart.loginuserdto ;
+com.filpkart.logout;
+
+all the interfaces in one folder 
+
+DTO classes in one folder 
+
+Method:- returntype methodname(parameters){}
+
+Loop Statements:- 
+for , while, do-while enhanced for loop 
+
+
+Constructors:-Constructor is also similiar type of method to provide 
+memory for an object , Initialize an object variables while creating object itself. 
+Diff between normal method and Constructor
+
+
+
+
+
+class Student {
+
+
+int stdid =13; //0 
+String studentName ="Sattibabu"; //null
+String emailId; //null 
+public Student(){
+
+}
+
+
+}
+Student student1=new Student();
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
