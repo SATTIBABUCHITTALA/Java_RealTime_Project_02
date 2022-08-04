@@ -1,0 +1,10 @@
+OOPS Concepts:-
+Class 
+Object 
+Encapsulation
+Abstarction
+Inheritance
+Polymorphism
+
+
+ 
