@@ -1,0 +1,55 @@
+OOPS Concepts 
+class 
+object 
+inheritance
+interface 
+encapsulation 
+polymorphism
+Abstraction
+
+class Student {
+
+void getData(){
+
+}
+
+}
+
+std.getData();
+
+Inheritance:-Aquiring properties of one class to another class . extends keyword
+
+class A{
+
+
+}
+
+class B extends A{
+
+}
+class A:- Super Class / Parent Class / Base Class 
+class B :- Sub class /child Class /derived Class 
+Types of Inheritance:- 
+
+1. Single Inheritance (A--->B) class B extends A{}
+2. Multiple Inheritance (A, B -----> C) 
+3. Multi Level Inheritance ( A ---> B----> C) one class acts as a 
+super class and subclass 
+4. Hierarchial Inheritanc ( A ----> B,C) ( One class acts as a super class for 
+more than one sub classes)
+
+5. Hybrid Inheritance (A--->B--->C,D)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
