@@ -1,0 +1,26 @@
+github
+
+git ------ git tool 
+
+
+git init
+git add
+git push -u origin
+git commit -m ""
+
+git commit -m "modified file"
+ git push origin 
+
+
+ git status
+
+commit ---- Local Commit, Central Repository Commit 
+
+
+github --- repository 
+
+https://www.youtube.com/watch?v=WbwIoQYP6no
+
+
+
+
