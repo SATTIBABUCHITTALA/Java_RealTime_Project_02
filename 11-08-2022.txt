@@ -1,0 +1,109 @@
+Interface 
+Polymorphism
+
+Interface :- It is a mechanism to achieve the abstraction/ Encapsulation.
+
+syntax:- interface interfaceName{
+
+}
+
+EmployeeManagement
+
+
+//Model
+class Employee {
+
+
+}
+
+interface will have only abstract methods.
+
+void getData();
+
+interface EmployeeService {
+
+ Employee getEmployeeData(String empId);
+
+}
+class B{
+void getData1(){
+
+}
+void getData(){
+}
+}
+
+class C{
+void getData(){
+}
+}
+
+class A extends B,C{
+
+
+}
+A a=new A();
+a.getData();
+a.getData1();
+
+
+---class to class
+//class A extends B,C{
+}   
+class EmployeeServiceImpl implements EmployeeService{
+
+
+}
+
+//method declaration
+//all the methods are abstract methods 
+ //a method which does not have a body is called abstract method.
+
+git is a tool .....
+Distributed Version Control 
+1.0 
+1.1
+
+Central Repository ---Github  ---Softwares ---gitlab ---bitbucket 
+local Repository ------ in local
+
+
+EmployeeManagement
+
+https://github.com/SATTIBABUCHITTALA/EmployeeManagement.git
+
+login --Shivesh  -----His Branch and work on his requirement---INVENT-9898 
+//Agile -jira methodology 
+
+
+main
+
+logout--- Harikha    -----INVENT-78777
+
+
+leaveBalance --- Laxmi
+
+adminOpertions ----- Nikhila 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
