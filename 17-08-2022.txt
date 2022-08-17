@@ -1,0 +1,106 @@
+Class
+Object
+Inheritance
+Encapusulation
+Interface 
+Abstraction 
+
+Polymorphism 
+
+//Model, Entity, POJO, DTO
+public class Employee {
+
+private String empId;
+private String empName;
+private double empSalary;
+
+
+
+//get method set method 
+
+public String getEmpId(){
+return this.empId;
+}
+public void setEmpId(String empId){
+this.empId=empId;
+}
+//polymorphsim
+this key word :- This keyword will represent the current object.
+
+Constructor:- Constructor is also a similar type of a method to allocate memory to the objects. Initialise the attributes of the class. 
+
+Method Syntax:- accessmodifier returntype methodname(parameters list);
+
+
+Constructor:- accessmodifier Employee(int stdId){
+}
+
+Employee employee =new Employee();
+
+Default constructor:- 
+
+	public Employee(){
+
+	}
+
+git  init --- Create a repository 
+git clone --- 
+Repositories:- Local and remote repository 
+Different Types of  files :_ 
+untracked files :- newly created files (Red Colour ) 
+unstaged files:- Add.java (unstaged files ) Taken from github and modified in intelliJ
+commit:- 
+staged files --- committed files and ready to push for remote repository 
+git status 
+
+git add -- add untracked and unstaged files ready for commit 
+git rm -f 
+git add remote 
+
+git push -u origin 
+
+
+git pull 
+
+
+steps for creating repository
+1. create a reposiotry in github account 
+2. git clone https://github.com/SATTIBABUCHITTALA/careeco-employee-management.git
+3. open project in intellij
+4. add any file add.txt
+5. git add add.txt
+6. git status 
+7. git commit -m " created for tracking"
+8. git push -u origin 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
