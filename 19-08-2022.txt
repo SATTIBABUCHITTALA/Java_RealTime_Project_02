@@ -1,0 +1,126 @@
+Polymorphism:- Two Types of Polymorphism 
+1. Compile time polymorphism (Method overloading)
+2. Runtime Polymorphism (Method Overriding) 
+
+getData()
+getData()
+
+Compile Time Polymorphism:- JVM will decide which method to call at compile time. Method Overloading
+Runtime Polymorphism:- Method will be decided at runtime.
+class Customer{
+void getData(int custId){
+sout("yes");
+//15 lines 
+}
+void getData(int custId, String mobileNum){
+
+}
+
+
+}
+class BankDetails extends Customer{
+@Override
+void getData(int custId){
+sout("yes");
+//15 lines 
+}
+
+}
+Method Overloading:- Method name and return type will be same but parameters will be different.
+Mehtod overriding :- It will be happend in sub class 
+
+
+1. Exception Handling
+2. String functions
+3. Wrapper Classes 
+4. Collections
+
+java 1.8 features 
+2 days 
+
+Wrapper Classes :- primitive Datatypes int, float, char, double
+
+Wrapper classes :- int -Integer, flaot - Float ,char -Char, double -Double , String 
+
+String Functions:- 
+String :- String is a sequence of Characters 
+
+{'1','a','b','c'}   
+
+String is an immutable class ;Once we assign the value it will change .
+
+Two Types of Strings will be there 
+1. String liternal
+2. String class 
+String name="Satti Babu";
+String name=new String(); //Object 
+
+Immutable nature:-
+String name="Sattibabu"
+
+name ="Satti Babu Chittala";
+
+String name =new String();
+
+
+Exception Handling:- Mechanism to handle the Exceptions 
+
+
+1000 lines of code is there 
+
+Abrupt Termination of a program is called an Exception 
+
+class WithdrawFunds{
+
+accoutn verification
+atmpin verification
+balance check --10000,,, 100000
+
+balance deduction
+funds will come from at
+}
+-------------
+ATM PIN :- 1542
+:- satt
+
+try {
+
+
+}
+catch (){
+}
+finally{
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
