@@ -1,0 +1,43 @@
+git init
+git clone 
+git add
+git status
+git commit -m ""
+git push -u origin 
+
+git pull 
+git fetch
+
+1. add.txt
+2. update.txt
+3. addition.txt  version 1.1 
+
+git merge conflicts
+git push -u origin  
+git merge ivm-24 
+
+
+git clone 
+
+do some modification in some file in Remote repository
+
+Update same file in local without taking git pull
+
+git add *
+
+git commit -m "update"
+
+git push -u origin
+
+Youtube Link
+https://www.youtube.com/watch?v=Uszj_k0DGsg
+
+Error :- system crash , 
+Exception:- U can handle the exception and give proper information to the end user.
+7868
+satti
+
+Please enter proper pin .
+
+
+
