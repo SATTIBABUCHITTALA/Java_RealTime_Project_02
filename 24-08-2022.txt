@@ -1,0 +1,197 @@
+NullPointerException
+ArrayIndexOutofBoundException
+FileNotFoundException
+ClassNotFoundException
+ArithmeticException
+SQLException
+ConcurrentModificationException
+IllegalArgumentException
+
+10
+
+for
+
+add--11
+
+
+Exception Class 
+try{
+
+}
+//Code is Not Reachable 
+catch(ArithmmeticException ae){
+
+}catch(ArrayIndexOutofBoundException ae){
+}catch(Exception ex){
+
+}
+
+class Student {
+
+
+
+}
+
+class Library extends Student{
+
+
+}
+class Department extends Student{
+
+
+}
+
+Library std= new Library();
+
+Student std=new Library();
+std =new Department();
+
+//Yes You can create your own Exception class 
+class CustomException extends Exception{
+}
+class Arithemetic extends Exception{
+
+}
+Diff between :- throw, throws 
+Arrays :- 
+int num;
+int num1;
+//100 elements 10 elements
+int num2;
+int num3;
+
+
+int num100;
+Arrays comes into picture to hold collection of Homogenious Elements (Same datatype)
+
+int [] num=new int[10];
+
+java.util.*;
+
+Note:- You cant create an object for an interface 
+
+Collections:- Hold Huge amount of Data 
+
+1. Some interfaces and Classes
+
+
+
+class Student{
+int studentId;
+String stdName;
+
+}
+//CRUD--- CREATE, UPDATE,READ,DELETE 
+Generics:- <String> <Integer> <Float> , <
+Collection
+
+List(Inteface) :- ArrayList, LinkedList,Stack,Vector
+className referenceVaraible =new classname();
+ArrayList list=new ArrayList();
+ArrayList<Integer> list =new ArrayList<Integer>();
+
+I want to create linkedlist which holds only Student data;
+
+LinkedList<Student> list=new LinkedList<Student>();
+Student student =new Student();
+list.add(student);
+
+List<Student> list=new ArrayList<Student>(); //Dynamic Method Dispatch
+list =new LinkedList<Student>();
+
+Set:- HashSet, LinkedHashSet, TreeSet,
+Set<String> set=new HashSet();
+HashSet<String> set=new HashSet();
+
+Queue:- 
+
+Map :- HashMap,LinkedHashMap,TreeMap, HashTable 
+
+HashMap<key,value> map =new HashMap<key,value>();
+HashMap<String,Student> map=new HashMap<String,Student>();
+
+
+List<Student> list=new ArrayList<Student>();
+
+
+Comparator and Comparable Intefaces are going to help us to do sorting 
+
+compare and compareTo method 
+//Ananymous Inner class 
+Comparator compartor=new Compartor(){
+
+int compareTo(Student std,Student std2){
+}
+
+};
+
+//class Student implements Comparable {
+
+
+}
+
+class StudentServiceImpl{
+Comparator compartor=new Compartor(){
+
+int compareTo(Student std,Student std2){
+}
+
+};
+
+
+
+for (int i=0;i<list.size();i++)
+
+if(list.get(i).getAge()>25){
+
+}
+}
+
+}
+Comparable and Compartor
+https://www.youtube.com/watch?v=b-KccmQYvlM
+
+
+
+
+based on studentId;
+based on studentGrade
+based on emailId;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
