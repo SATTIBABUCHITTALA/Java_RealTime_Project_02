@@ -1,0 +1,86 @@
+class A throws NullpointerException , FileNotFoundException
+{
+
+void getData(){
+
+throw new Exception("NullPointer Exception"); //user defined Exceptions 
+}
+
+
+}
+
+class B {
+
+try{
+
+A a=new A();
+a.getData();
+}catch(NullpointerException ne){
+
+}
+
+}
+
+
+class customException extends Exception{
+
+
+
+}
+this 
+super();
+super.
+
+class SuperClass{
+
+void getData(){
+
+
+}
+}
+
+class SubClass extends SuperClass {
+
+public  SubClass(){
+	super("1",2);
+	this();
+this.getData();
+this();
+}
+
+void getSubclassData(){
+super.getData();
+this.getData1();
+
+}
+
+}
+
+SubClass class =new SubClass(); // No it is not valid 
+
+class.getSubclassData(); //Inheritance 
+
+
+class EmployeeManagementException extends Exception{
+
+public EmployeeManagementException(String s){
+
+super(s);
+
+}
+
+}
+
+
+throw new EmployeeManagementException("NullPointer");
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,41 @@
+String str="Satti Babu";
+
+
+str =str+"Chittala";
+//str,chittala ,Satti Babu Chittala 
+
+String 
+
+StringBuffer 
+
+StringBuilder 
+
+//final and static keyword
+
+
+final :- 
+variable :- private String name="Java";
+name="Java Programming";
+method level
+class level
+
+
+
+
+///Collections
+
+//Create, Update, Delete, Read 
+Collection
+
+List:- ArrayList, LinkedList, Vector, Stack
+
+Set:- HashSet, LinkedHashSet, TreeSet
+
+Queue:- DeQueue,ArrayDeQueue
+
+Map :- HashMap, LinkedHashMap, TreeMap
+
+
+
+
+
