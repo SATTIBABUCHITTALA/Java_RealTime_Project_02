@@ -1,0 +1,82 @@
+Collection
+
+List:- ArrayList, LinkedList, Vector, Stack
+Set:- HashSet, LinkedHashSet, TreeSet(implemented interface of SortedSet)
+Map:- HashMap, LinkedHashMap, TreeMap
+Queue 
+
+
+10 elements 
+
+
+whenever it reaches 5th elements 10
+
+CRUD:- CREATE UPDATE READ DELETE 
+
+list.get(3);
+
+23,45,34--> HashSet will not follow the insertion order
+
+LinkedHashSet follows the insertion order
+TreeSet:---Sorted 
+
+23,45,34,34,45,56
+
+--------------------------------
+I have a list of elements {23,45,45,23,56,78,81,-10,-15,45}
+I want to get the list of duplicate elements in the given arrayList.?
+
+Input:- 
+{23,45,45,23,56,78,81,81,-10,-15,45}
+
+output:- 
+
+
+
+{23,45,81}
+
+1. create a arrayList
+	ArrayList<Integer> list=new ArrayList<Integer>();
+	list.add(23);
+	list.add(34);
+	list.add(23);
+	list.add(34);
+ArrayList<Integer> dupList=new ArrayList<Integer>();
+2. Create one 
+HashSet<Integer> set=new HashSet<Integer>();
+
+Iterator itr=list.iterator();
+while(itr.hasNext()){
+int num=itr.next();
+if(!set.add(num))
+dupList.add(num);
+}
+
+Write down one more program to find out the duplicate String in a given list of Strings
+in sorting order? 
+
+{"Hello", "World", "Elements", "Birds", "Elements", "Hello"}
+
+output:- 
+{"Elements","Hello"}
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+

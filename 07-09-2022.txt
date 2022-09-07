@@ -1,0 +1,74 @@
+Map Interface 
+
+
+
+java.util
+
+
+Collection---> single elements
+Map will come with Key value pairs 
+
+
+ArrayList 
+
+
+1.Create a list of Employee Objects sort out based on EmpId and iterate using three 
+mechanisms  
+1. Enhanced for loop for(String str: list){sout(str);}
+2. foreach loop:- list.forEach(i-> sout(i);
+3. iterator :- Iterator itr =arrayList.iterator();
+
+Sort out the list
+
+Map<String, String> map=new HashMap<String,String>();
+
+//All Keys should be unique 
+map.put(101,"Sattibabu");
+map.put(102, "Nikhila");
+map.put(103, "Shivesh");
+map.putIfAbsent(101, "Shivesh");
+
+Iterator itr=map.entrySet().iterator();
+
+
+for(String entry:map){
+
+
+}
+for(Map.Entry<Integer,String> em:map.entrySet()){
+
+}
+
+Iterator<Map.Entry<String, String>> itr = gfg.entrySet().iterator();
+          
+        while(itr.hasNext())
+        {
+             Map.Entry<String, String> entry = itr.next();
+             System.out.println("Key = " + entry.getKey() + 
+                                 ", Value = " + entry.getValue());
+        }
+
+10 +1 
+itr =list.iterator();
+while(itr){
+list.add(1);
+}
+Collection 
+
+Collection 
+
+
+
+Collections.sort(
+
+
+
+
+
+
+
+
+
+
+
+
