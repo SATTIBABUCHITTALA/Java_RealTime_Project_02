@@ -1,0 +1,116 @@
+1. Create one model Employee (id, name, emailId, department, salary);
+
+2. Create interface EmplolyeeService
+
+3. Create one Impl EmployeeServiceImpl implements EmployeeService
+	addEmployee(Employee emp);
+	deleteEmployee(id);
+	updateEmployee(id, salary);
+	getEmployee(id);
+
+	sortEmployeeListByName(String empName);
+	sortEmployeeListById(int id);
+	sortEmployeeListBySalary(double salary);
+	
+
+	createEmployeeList()//10 
+	
+
+4. Create one main method 
+	call all the methods exists in EmployeeserviceImpl class
+
+
+CRUD Operations on list of Employees //5000   
+
+Marker Interface:- 
+
+interface InterfaceName{
+
+}
+
+cloning ,Serialzable 
+jvm 
+
+class implements Serializable{
+
+}
+
+class Name implements Clonable{
+
+
+}
+
+Java 1.8 features :- 
+
+interface interfaceName{
+void getData();
+
+}
+class Cls implements InterfaceName{
+
+void getData(){
+
+}
+
+}
+
+InterfaceName intername=new InterfaceName{
+void getData(){
+
+}
+};
+Anonymous Innerclass:- A class which does not have name helps us to implement the methods available in an interface. 
+
+
+
+
+
+1. Functional Interface 
+
+@FunctionalInterface
+public interface FunctionalInterface{
+
+	public void getData();
+}
+2. Lambda Expression:- Anonymous function to reduce the code for anonymous innerclass 
+
+StudentServiceImpl impl=new StudentServiceImpl();
+InterfaceName intername=new InterfaceName{
+void getData(){
+
+}
+};
+InterfaceName intername =(2,3)->{
+
+};
+
+
+
+
+ 
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
