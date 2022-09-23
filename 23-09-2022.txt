@@ -1,0 +1,87 @@
+Optional Class 
+
+
+String 
+we can 
+String str="Sattibabu";
+Optional<String> str=Optional.of(str);
+
+
+null!=str
+
+ofNullable
+orElse  --> assign
+orElseGet()---->
+of
+isEmpty
+isPresent()
+ifPresent()
+void getData(int i){
+
+}
+
+obj.getdata(2); //2 is an agruement 
+
+dummy data 
+userid:- 101 password:ark;
+1. Successful user 
+2. Wrong user 
+
+
+
+Method Reference:- 
+
+::
+objectname.methodname();
+
+1. static method reference A::getData;
+2. instance method reference  this::getData;
+3. Constructor method reference (A::new) A a=new A();
+4.Object Aribitary values (Comparator::compare);
+
+
+
+
+
+
+
+
+
+
+::method reference
+
+functional Programming:- 
+passing a method as an arguement in another method.
+
+String name="GVP"; //hashcode 
+String name2="GVP";//hashcode
+
+if(name."GVP"){
+
+}
+
+Optional.of(name).filter(str->str=="GVP").
+
+Serialization and Deserializion
+
+object name=Sattibabu;value=350000;---->.txt ,xml, Serialization (ObjectOutputStream)
+.txt ----> Object Deseralization
+
+java object ----> stream (Serialization) writeObject();
+
+.txt ---> java object (Deserialization) readObject();
+
+
+1. Method reference
+2. Serialization / Deserialization
+3. Executionservice in multi threading Environemnt
+4. Spring framework.
+ExecutorService ---->
+Spring framework 
+
+
+
+
+ 
+
+
