@@ -1,0 +1,113 @@
+opening website is a task
+Thread :- Smallest unit of process 
+
+
+MultiTasking:- typing writing, 
+
+MultiThreading:- The task is completed by multiple people 
+
+I want to construct a building
+plan
+1 people -----> 
+100 people ---> Task 
+
+{1,1000 } number {1,4,9,}  30-40 sec 15 sec 
+
+15 sec ---><15 Sec  
+One thread which is main thread 
+
+
+Sattibabu
+
+
+Shivesh
+
+Nikhila
+
+Harika
+
+-------------------------------------------------
+class ABC extends Abc,Thread{
+
+
+}
+class ABC extends Abc implements Runnable{
+
+}
+Thread thread=new Thread();
+
+public void run(){
+
+}
+
+Runnable Interface
+
+Thread Life cycle:- New born
+
+start();
+join();
+sleep()
+wait();
+ThreadName();
+currentThread();
+1--10 
+5
+ 
+Spring Boot Framework
+
+
+Request / Response
+
+Rest API (Web Services) 
+
+1. Angular 
+2. Java / Framework Spring Boot (Annotations @Override) @Autowired , @FunctionalInterface )
+3. Microservices 
+4. Web Service (SOAP, Rest)
+
+5. Connect DB(Sql/NoSql Database(MongoDB))
+
+JSON Format :- key value pairs 
+class A{
+String id="101";
+String name="Satti";
+String[] tech={"java","Spring","Spring Boot"};
+List<A> alist=new ArrayList<String>();
+}
+
+[{
+"id":"101",
+"name":"Sattibabu",
+"exp":9,
+"tech":["java","Spring","SpringBoot"]
+},
+{
+"id":"101",
+"name":"Sattibabu",
+"exp":9,
+"tech":["java","Spring","SpringBoot"]
+}
+
+]
+Rest API 
+Spring Boot
+Mongo DB
+https://www.youtube.com/watch?v=6QnY7Ri_ORw
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
