@@ -1,0 +1,117 @@
+final key word 
+static final String name="SATTIBABU";
+enum e={
+class Clasname{
+
+
+}
+class clasName{
+enum colors={RED,GREEN,YELLOW}
+
+}
+enum Color{
+RED,GREEN,YELLOW;
+
+void getInfo(){
+
+}
+}
+Color c1=new Color.RED;
+c1.getInfo();
+
+A project consists of Classes , Interfaces , Packages .jar (Dependencies)
+
+com.tcs.icomply.java
+com.tcs.icomply.test
+
+ client --->Server 
+create a project ---> implementing (Server ) 
+process help us to deploy into server 
+deployment 
+
+Servers (jar or war file) (jboss, tomcat, nitty, websphere) (icomply.war) 
+
+spring framework :- certian modules are there 
+core module
+
+Amaron
+
+class Exide {
+
+}
+
+//Maruti 
+class Vehicle{
+
+Exide exide =new Exide(); // Exide 
+Amaron amaron =new Amaron();
+
+Samsung samsung=new Samsung();
+
+}
+Tight Coupling one class is depending on another class 
+
+Vehicle class is depending provider --->Exide/Amaron class 
+
+
+In Realtime applications we will create loosely coupling classes 
+
+
+framework is going to help us to fulfill my requirement 
+
+
+vendor (Battery(18 hours backup, less power consumtion ISI) ---> Exide / Amaron
+
+Spring framework ---> IOC Container (Inversion of Control);
+
+It is a mechanism to provide the dependent objects into target class
+
+class Car {
+
+@Autowired 
+Tata engine //I will provide ( where to shift and which car) 
+
+
+} 
+
+
+
+Dependency Injection:- Injecting dependent objects into a target class . 
+
+Annotations @Autowired, @Qualifier, @Component,
+Hibernate (ojdbc6.jar) 
+Terminologies:- 
+
+1. Repository (Github) Bitbucket 
+2. build tools (Maven, Gradel,Ant)(ojdbc, hibernate, webmvc,)pom.xml(Project Object Model) 
+(dependencies) 
+Maven Repository :- Centralized Repository (apache Maven) 
+Local Repository (in your local machine) (pom.xml) to check whether my application if perfect or not 
+3. Create a project :- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6 months Amaron 
+
+
+
+
+
+
+
+
+
+c1
